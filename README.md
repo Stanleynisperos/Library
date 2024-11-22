@@ -1,35 +1,36 @@
-# 📚 Library Management System API
+# 📚 Library Management System API  
 
-Welcome to the **Library Management System API**, a streamlined backend application designed to simplify library operations while ensuring secure user interactions. Built with the lightweight **Slim Framework**, this project focuses on scalability, security, and simplicity. Whether you're managing a small community library or a larger institution, this API is here to help!
-
----
-
-## 🚀 Key Features
-
-- **User Registration**: Secure and easy user onboarding.
-- **Authentication with JWT**: Powered by **Firebase JWT**, ensuring only authorized users can access resources.
-- **Flexible Framework**: Built on the Slim Framework for a clean and efficient codebase.
-- **Error Handling**: Comprehensive error reporting and feedback.
+Welcome to the **Library Management System API**, your solution to seamless library operations and secure user management. Developed using the lightweight and flexible **Slim Framework**, this API is designed to be efficient, scalable, and user-friendly. Whether you’re overseeing a local library or a large-scale digital archive, this system is tailored to meet your needs!  
 
 ---
 
-## ⚙️ Prerequisites
+## 🚀 Key Features  
 
-Before you get started, ensure your system meets these requirements:
-
-- PHP **7.4** or higher
-- **Composer** for dependency management
-- Installed libraries: 
-  - `Firebase JWT` for token-based authentication
-  - `Slim Framework` for routing and middleware
+- **User Registration**: Enable secure and straightforward user onboarding for library patrons.  
+- **Authentication with JWT**: Protect your endpoints with token-based authentication using **Firebase JWT**.  
+- **Scalability**: Modular architecture ensures easy integration of new features as your library grows.  
+- **Error Handling**: Intuitive feedback and robust logging for smooth debugging and maintenance.  
+- **Flexibility**: Built with the **Slim Framework**, providing a lightweight and extendable codebase.  
 
 ---
 
-## 🛠️ Installation Guide
+## ⚙️ Prerequisites  
 
-Follow these steps to set up and run the project:
+Before setting up the system, make sure your environment has the following:  
 
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+- **PHP 7.4 or higher**  
+- **Composer** for dependency management  
+- **MySQL** or an equivalent relational database  
+- Required libraries:  
+  - `Firebase JWT` for secure token handling  
+  - `Slim Framework` for routing and middleware  
+
+---
+
+## 🛠️ Installation Guide  
+
+1. **Clone the Repository**:  
+   Download the code to your local environment:  
+   ```bash  
+   git clone https://github.com/yourusername/library-management-system.git  
+   cd library-management-system  
