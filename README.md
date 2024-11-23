@@ -1,4 +1,4 @@
-# Library Management System with JWT
+# Library with JWT
 
 A Library Management System designed for secure and efficient book and author management using JSON Web Tokens (JWT) for authentication. This system allows users to manage their library collection, ensuring only authorized access to CRUD operations. The system supports features like user registration, login, and managing books and authors through a RESTful API.
 
@@ -224,17 +224,3 @@ php -S localhost:8000
 4. Duplicate checks for authors and books
 5. Token expiration after 300 seconds (5 minutes)
 
-## Error Handling
-
-All API responses follow this format:
-```json
-{
-  "status": "success|fail",
-  "data": null|object,
-  "token": "string" (for endpoints that refresh tokens)
-}
-```
-
-## Error Reporting
-
-The API has error reporting enabled (`error_reporting(E_ALL)`) for development. Consider adjusting this for production environments.
